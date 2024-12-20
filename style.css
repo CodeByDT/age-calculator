@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     margin: 20px;
-    /* background-color: #f4f4f9; */
     color: #333;
     background-image: url("img2.jpg");
     background-size: cover;
@@ -15,7 +14,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     opacity: 0.8;
-    
 }
 .mainHead{
     font-style: italic;
@@ -57,4 +55,62 @@ h1 {
     padding: 10px;
     background: #e9ecef;
     border-radius: 5px;
+}
+
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .mainHead {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .input-group label {
+        font-size: 0.9em;
+    }
+
+    .input-group input {
+        padding: 8px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* Media Query for Small Mobile Screens */
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .mainHead {
+        font-size: 1.3em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .input-group label {
+        font-size: 0.8em;
+    }
+
+    .input-group input {
+        padding: 6px;
+    }
+
+    .btn {
+        padding: 15px;
+        font-size: 1em;
+    }
 }
